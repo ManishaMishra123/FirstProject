@@ -1,3 +1,0 @@
-//First commit of this file 
-//Now no content.....
-//Later we will see the examples

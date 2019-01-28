@@ -24,7 +24,15 @@ public class FileEx1
       out.println("Directory : "+f.isDirectory());//Method returns True if Directory o/w False
       out.println("Length : "+f.length());        //Size of file in bytes
       out.println("Path : "+f.getPath());         //returns complete path or laction of theb file
-      ..............
+      .............
+        //For future version
+        //More details
+        Long a = f.lastModified();
+        Date d = new Date(a);
+        out.println("Date : "+d);
+        out.println("Writable : "+f.canWrite());
+        out.println("Readable : "+f.canRead());
+        out.println("Hidden : "+f.isHidden()); 
     }
     
     else
